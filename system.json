@@ -1,0 +1,51 @@
+{
+  "id": "n5e2",
+  "title": "N5e2 - Custom System",
+  "description": "The custom N5e System for Foundry VTT, made by Yaco.",
+  "version": "2.0.0",
+  "compatibility": {
+    "minimum": "10.303",
+    "verified": "11"
+  },
+  "url": "https://github.com/foundryvtt/n5e2/",
+  "manifest": "https://raw.githubusercontent.com/yacon5e/n5e2/main/system.json",
+  "download": "https://github.com/yacon5e/n5e2/raw/main/n5e2.zip",
+  "authors": [
+    {
+      "name": "Yaco",
+      "url": "https://discord.gg/4KVW9mFnXM",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "n5e2.mjs"
+  ],
+  "styles": [
+    "n5e2.css"
+  ],
+  "packs": [
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "media": [
+    {
+      "type": "cover",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "socket": true,
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "attributes.hp",
+  "flags": {
+    "needsMigrationVersion": "2.3.0",
+    "compatibleMigrationVersion": "0.8"
+  }
+}
